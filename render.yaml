@@ -12,8 +12,6 @@ services:
     startCommand: bash repub
     region: frankfurt
     envVars:
-      - key: ALIVE_NAME
-        sync: false
       - key: APP_ID 
         value: 13740761
       - key: API_HASH 
