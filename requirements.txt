@@ -1,4 +1,4 @@
-telethon==1.32.1
+telethon==1.36.0
 telethon-session-sqlalchemy
 setuptools
 wheel
@@ -12,6 +12,8 @@ cowpy
 DateTime
 emoji
 ffmpeg-python
+flask
+flask_restful
 fonttools
 geopy
 gitpython
@@ -20,6 +22,7 @@ google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 gtts
+gunicorn
 hachoir
 heroku3
 html-telegraph-poster
@@ -38,15 +41,16 @@ nekos.py
 Pillow
 prettytable
 psutil
+psycopg2-binary
 psycopg2
-py-tgcalls==0.9.2
+py-tgcalls==2.0.2
 pyfiglet
 PyGithub
 pygments
 pylast
 pymediainfo
 pySmartDL
-pytube==15.0.0
+pytube
 python-barcode
 python-dotenv
 pyTelegramBotAPI==3.7.7
@@ -77,7 +81,7 @@ wikipedia
 wget
 youtube-search-python==1.4.9
 youtube-search
-yt-dlp==2023.09.24
+yt-dlp==2024.07.27
 youtube_dl
-git+https://github.com/buddhhu/img2html.git
-git+https://github.com/sandy1709/py-googletrans
+img2html
+py-googletrans
